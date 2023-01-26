@@ -4,13 +4,13 @@
 
 body {
     background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
-#text {
+  #text {
     margin: 5rem;
     width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     cursor: default;
 }
   
