@@ -2,11 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .sidebar-icon {
+        @apply relative flex p-2 items-center justify-center mt-2 mb-2 mx-auto shadow-lg bg-gray-800 text-white
+        hover:bg-white hover:text-gray-800 rounded-3xl hover:rounded-xl transition-all duration-[250ms] ease-linear 
+        cursor-pointer;
+    }
+
+    .sidebar-tooltip {
+        @apply absolute w-auto p-3 m-3 min-w-max left-20 rounded-lg shadow-md text-white bg-gray-900 text-sm
+        font-bold transition-all duration-100 scale-0 origin-left;
+    }
+}
+
 body {
     background-color: black;
   }
   #text {
     margin: 5rem;
+    margin-left: 8rem;
     width: fit-content;
     display: flex;
     flex-direction: column;
