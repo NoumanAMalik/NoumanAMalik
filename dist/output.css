@@ -513,12 +513,8 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.font-extrabold {
-  font-weight: 800;
-}
-
-.underline {
-  text-decoration-line: underline;
+.flex {
+  display: flex;
 }
 
 body {
