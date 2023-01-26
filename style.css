@@ -1,18 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
     background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  #text {
+#text {
     margin: 5rem;
     width: fit-content;
     cursor: default;
-  }
+}
   
   p, a, span {
     color: white;
-    font-size: 6vw;
+    font-size: 4vw;
     font-family: "Rubik", sans-serif;
     margin: 0rem;
     text-transform: uppercase;
