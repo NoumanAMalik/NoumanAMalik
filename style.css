@@ -19,8 +19,6 @@ body {
     background-color: black;
 }
 #text {
-    margin: 5rem;
-    margin-left: 8rem;
     width: fit-content;
     display: flex;
     flex-direction: column;
@@ -30,7 +28,7 @@ body {
 
 p, a, span {
     color: white;
-    font-size: 4vw;
+    font-size: 3rem;
     font-family: "Rubik", sans-serif;
     margin: 0rem;
     text-transform: uppercase;
