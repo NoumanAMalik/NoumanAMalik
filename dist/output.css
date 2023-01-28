@@ -614,10 +614,6 @@ video {
   justify-content: center;
 }
 
-.overflow-hidden {
-  overflow: hidden;
-}
-
 .overflow-x-hidden {
   overflow-x: hidden;
 }
