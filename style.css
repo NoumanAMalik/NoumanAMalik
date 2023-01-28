@@ -5,20 +5,20 @@
 @layer components {
     .sidebar-icon {
         @apply relative flex p-2 items-center justify-center mt-2 mb-2 mx-auto shadow-lg bg-gray-800 text-white
-        hover:bg-white hover:text-gray-800 rounded-3xl hover:rounded-xl transition-all duration-[250ms] ease-linear 
-        cursor-pointer;
+            hover:bg-white hover:text-gray-800 rounded-3xl hover:rounded-xl transition-all duration-[250ms] ease-linear 
+            cursor-pointer;
     }
 
-    .sidebar-tooltip {
-        @apply absolute w-auto p-3 m-3 min-w-max left-20 rounded-lg shadow-md text-white bg-gray-900 text-sm
+.sidebar-tooltip {
+    @apply absolute w-auto p-3 m-3 min-w-max left-20 rounded-lg shadow-md text-white bg-gray-900 text-sm
         font-bold transition-all duration-100 scale-0 origin-left;
-    }
+}
 }
 
 body {
     background-color: black;
-  }
-  #text {
+}
+#text {
     margin: 5rem;
     margin-left: 8rem;
     width: fit-content;
@@ -27,75 +27,75 @@ body {
     justify-content: center;
     cursor: default;
 }
-  
-  p, a, span {
+
+p, a, span {
     color: white;
     font-size: 4vw;
     font-family: "Rubik", sans-serif;
     margin: 0rem;
     text-transform: uppercase;
-  }
-  
-  .line {
+}
+
+.line {
     display: flex;
     justify-content: space-between;
-  }
-  
-  .left {
+}
+
+.left {
     margin-left: auto;
-  }
-  
-  #text:has(.fancy:hover) .word:not(.fancy:hover) {
+}
+
+#text:has(.fancy:hover) .word:not(.fancy:hover) {
     opacity: 0.2;
-  }
-  
-  .fancy {
+}
+
+.fancy {
     cursor: pointer;
-  }
-  
-  .fancy > .letter {
+}
+
+.fancy > .letter {
     display: inline-block;
     position: relative;
     transition: transform 350ms ease;
-  }
-  
-  .fancy:hover > .letter {
+}
+
+.fancy:hover > .letter {
     transition-duration: 800ms;
-  }
-  
-  .fancy:hover > .letter:nth-child(1) {
+}
+
+.fancy:hover > .letter:nth-child(1) {
     transform: translate(-80%, 60%) rotate(8deg)
-  }
-  .fancy:hover > .letter:nth-child(2) {
+}
+.fancy:hover > .letter:nth-child(2) {
     transform: translate(-40%, 20%) rotate(4deg)
-  }
-  .fancy:hover > .letter:nth-child(3) {
+}
+.fancy:hover > .letter:nth-child(3) {
     transform: translate(-10%, 60%) rotate(-6deg)
-  }
-  .fancy:hover > .letter:nth-child(4) {
+}
+.fancy:hover > .letter:nth-child(4) {
     transform: translate(0%, 8%) rotate(-8deg)
-  }
-  .fancy:hover > .letter:nth-child(5) {
+}
+.fancy:hover > .letter:nth-child(5) {
     transform: translate(0%, -20%) rotate(5deg)
-  }
-  .fancy:hover > .letter:nth-child(6) {
+}
+.fancy:hover > .letter:nth-child(6) {
     transform: translate(0%, 20%) rotate(-3deg)
-  }
-  .fancy:hover > .letter:nth-child(7) {
+}
+.fancy:hover > .letter:nth-child(7) {
     transform: translate(0%, -40%) rotate(-5deg)
-  }
-  .fancy:hover > .letter:nth-child(8) {
+}
+.fancy:hover > .letter:nth-child(8) {
     transform: translate(0%, 15%) rotate(10deg)
-  }
-  .fancy:hover > .letter:nth-child(9) {
+}
+.fancy:hover > .letter:nth-child(9) {
     transform: translate(0%, -50%) rotate(8deg)
-  }
-  .fancy:hover > .letter:nth-child(10) {
+}
+.fancy:hover > .letter:nth-child(10) {
     transform: translate(0%, 15%) rotate(-6deg)
-  }
-  .fancy:hover > .letter:nth-child(11) {
+}
+.fancy:hover > .letter:nth-child(11) {
     transform: translate(50%, -10%) rotate(-3deg)
-  }
-  .fancy:hover > .letter:nth-child(12) {
+}
+.fancy:hover > .letter:nth-child(12) {
     transform: translate(120%, -30%) rotate(-11deg)
-  }
+}
