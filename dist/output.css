@@ -665,7 +665,7 @@ video {
   cursor: default;
 }
 
-p, a, span {
+p, span {
   color: rgb(226 232 240);
   font-size: 3rem;
   font-family: "Rubik", sans-serif;
