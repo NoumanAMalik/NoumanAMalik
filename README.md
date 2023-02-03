@@ -9,7 +9,7 @@
   - This is a Chrome Browser Extension that automatically signs you into your Oracle Eloqua Account through SSO
   - I made this because at the University of Windsor, we use Oracle Eloqua for Landing Pages, and every time I want to sign in, I need to type out UniversityOfWindsor and click the submit button
   - This is very tedious, so instead, this extension uses cutting edge AI technology to do it for me
-  - Just kidding, no AI here, I just simply grab the input from its id and set the input's value equal to my company name
+  - lol just kidding, no AI here, I just simply grab the input from its id and set the input's value equal to my company name
   - Then I grab the submit button, again from its id, and click it
 
 ---
