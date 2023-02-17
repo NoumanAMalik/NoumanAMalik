@@ -1,6 +1,16 @@
 # README Work In Progress
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=23&duration=3500&pause=500&width=435&lines=Hi%2C+I+am+Nouman+Malik.;Welcome+to+my+GitHub.;Click+me+to+go+to+my+website.)](https://nouman-a-malik.vercel.app/)
+Hi, I am Nouman Malik
+
+Here are a few quick things about me:
+- I am currently a student at the University of Windsor, in my third year of Computer Science
+- I am working full time at the University as a Web Developer
+- Even though I am a web developer, I really enjoy making algorithm based solutions for problems in C++
+- I also don't want to be a web developer forever. I like challenges, but not in the form of "Why isn't this div centering??"
+- I might be addicted to iced coffee
+- My favorite thing to do is get excited about an idea, make 5% of it and then get bored and move onto something else [^1]
+
+[^1]: If it wasn't obvious I am being sarcastic here lol
 
 ---
 
