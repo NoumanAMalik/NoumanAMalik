@@ -45,15 +45,15 @@
 }
 
 
-#text {
+/* #text {
     width: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
     cursor: default;
-}
+} */
 
-p, span {
+.word {
     color: rgb(226 232 240);
     font-size: 3rem;
     font-family: "Rubik", sans-serif;

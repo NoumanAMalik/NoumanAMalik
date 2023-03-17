@@ -15,6 +15,4 @@ const enhance = (id) => {
 };
 
 enhance("github-link");
-enhance("github-link-2");
 enhance("linkedin-link");
-enhance("linkedin-link-2");
