@@ -699,6 +699,18 @@ video {
   height: 75%;
 }
 
+.max-h-56 {
+  max-height: 14rem;
+}
+
+.max-h-\[\] {
+  max-height: ;
+}
+
+.max-h-\[500\] {
+  max-height: 500;
+}
+
 .w-20 {
   width: 5rem;
 }
@@ -713,6 +725,18 @@ video {
 
 .w-7\/12 {
   width: 58.333333%;
+}
+
+.max-w-2xl {
+  max-width: 42rem;
+}
+
+.max-w-3xl {
+  max-width: 48rem;
+}
+
+.max-w-4xl {
+  max-width: 56rem;
 }
 
 .cursor-default {
