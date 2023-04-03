@@ -529,7 +529,7 @@ video {
 /* Chrome, Edge, and Safari */
 
 *::-webkit-scrollbar {
-  width: 15px;
+  width: 9px;
 }
 
 *::-webkit-scrollbar-track {
@@ -890,10 +890,6 @@ video {
   padding: 2.5rem;
 }
 
-.p-1 {
-  padding: 0.25rem;
-}
-
 .p-2 {
   padding: 0.5rem;
 }
@@ -941,14 +937,6 @@ video {
   --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
-
-/* #text {
-    width: fit-content;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    cursor: default;
-} */
 
 .word {
   color: rgb(226 232 240);
@@ -1031,6 +1019,26 @@ video {
 
 .fancy:hover > .letter:nth-child(12) {
   transform: translate(120%, -30%) rotate(-11deg);
+}
+
+.fade-in {
+  animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.initial-fade-in {
+  animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@keyframes fade-in {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .group:hover .group-hover\:scale-100 {
