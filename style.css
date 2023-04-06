@@ -14,8 +14,9 @@
 }
 
 /* Chrome, Edge, and Safari */
+
 *::-webkit-scrollbar {
-    width: 15px;
+    width: 9px;
 }
 
 *::-webkit-scrollbar-track {
@@ -53,14 +54,6 @@
 
     }
 }
-
-/* #text {
-    width: fit-content;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    cursor: default;
-} */
 
 .word {
     color: rgb(226 232 240);
@@ -132,4 +125,42 @@
 }
 .fancy:hover > .letter:nth-child(12) {
     transform: translate(120%, -30%) rotate(-11deg);
+}
+
+.fade-in {
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.initial-fade-in {
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes fade-in {
+    0% {
+        -webkit-transform: translateY(50px);
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        -webkit-transform: translateY(50px);
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
