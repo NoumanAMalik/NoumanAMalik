@@ -23,4 +23,16 @@ module.exports = {
         },
     },
     plugins: [require("daisyui")],
+    daisyui: {
+        themes: [
+            {
+                forest: {
+                    ...require("daisyui/src/colors/themes")[
+                        "[data-theme=forest]"
+                    ],
+                    "--rounded-btn": "0.5rem",
+                },
+            },
+        ],
+    },
 };
